@@ -30,7 +30,7 @@ spring:
 
 eureka:
   instance:
-    hostname: ${eureka.instance.hostname}
+    hostname: 192.168.3.251
   client:
     registerWithEureka: false 
     fetchRegistry: false 
